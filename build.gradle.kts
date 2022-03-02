@@ -21,6 +21,10 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+    implementation("org.springframework.boot:spring-boot-starter-security:2.6.3")
+    implementation("org.springframework.security:spring-security-oauth2-client:5.6.1")
+    testImplementation("org.springframework.security:spring-security-test:5.6.1")
 }
 
 tasks.withType<KotlinCompile> {
